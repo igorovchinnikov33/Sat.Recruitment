@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30709.64
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sat.Recruitment.Api", "Sat.Recruitment.Api\Sat.Recruitment.Api.csproj", "{1F342EA2-E7B1-4E53-AB93-9C62288D3FB0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sat.Recruitment.Services", "Sat.Recruitment.Services\Sat.Recruitment.Services\Sat.Recruitment.Services.csproj", "{0AED9882-A621-4160-97E9-236D2A86B6EE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sat.Recruitment.Repositories", "Sat.Recruitment.Repositories\Sat.Recruitment.Repositories.csproj", "{064DBF66-6E41-4F62-8FB2-A97FB5663216}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sat.Recruitment.EntitiesProvider", "Sat.Recruitment.EntitiesProvider\Sat.Recruitment.EntitiesProvider.csproj", "{74352526-BAF2-4741-A58F-96659CB4B482}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sat.Recruitment.Test", "Sat.Recruitment.Tests\Sat.Recruitment.Test.csproj", "{725EC7A4-961E-4012-9B54-AF4F7B862219}"
+	ProjectSection(ProjectDependencies) = postProject
+		{74352526-BAF2-4741-A58F-96659CB4B482} = {74352526-BAF2-4741-A58F-96659CB4B482}
+		{064DBF66-6E41-4F62-8FB2-A97FB5663216} = {064DBF66-6E41-4F62-8FB2-A97FB5663216}
+		{0AED9882-A621-4160-97E9-236D2A86B6EE} = {0AED9882-A621-4160-97E9-236D2A86B6EE}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1F342EA2-E7B1-4E53-AB93-9C62288D3FB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F342EA2-E7B1-4E53-AB93-9C62288D3FB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F342EA2-E7B1-4E53-AB93-9C62288D3FB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F342EA2-E7B1-4E53-AB93-9C62288D3FB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0AED9882-A621-4160-97E9-236D2A86B6EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AED9882-A621-4160-97E9-236D2A86B6EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AED9882-A621-4160-97E9-236D2A86B6EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AED9882-A621-4160-97E9-236D2A86B6EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{064DBF66-6E41-4F62-8FB2-A97FB5663216}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{064DBF66-6E41-4F62-8FB2-A97FB5663216}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{064DBF66-6E41-4F62-8FB2-A97FB5663216}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{064DBF66-6E41-4F62-8FB2-A97FB5663216}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74352526-BAF2-4741-A58F-96659CB4B482}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74352526-BAF2-4741-A58F-96659CB4B482}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74352526-BAF2-4741-A58F-96659CB4B482}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74352526-BAF2-4741-A58F-96659CB4B482}.Release|Any CPU.Build.0 = Release|Any CPU
+		{725EC7A4-961E-4012-9B54-AF4F7B862219}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{725EC7A4-961E-4012-9B54-AF4F7B862219}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{725EC7A4-961E-4012-9B54-AF4F7B862219}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{725EC7A4-961E-4012-9B54-AF4F7B862219}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A2A05765-05B9-484D-8D3D-506849EB716F}
+	EndGlobalSection
+EndGlobal
